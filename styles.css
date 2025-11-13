@@ -1,10 +1,6 @@
-/*
-$bgcolor1:#872400;
-$bgcolor2:#A72C00;
-*/
 @import url("https://fonts.googleapis.com/css2?family=Graduate&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Lexend:wght@100..900&display=swap");
 body {
-  background-color: teal;
+  background-color: #872400;
   margin: 0px;
   border: 0px;
   box-sizing: border-box;
@@ -26,7 +22,7 @@ body {
 }
 
 .filter-container {
-  background-color: rgb(0, 175, 175);
+  background-color: #A72C00;
   width: calc(100% - 60px);
   margin: auto;
   border-radius: 10px;
@@ -54,7 +50,7 @@ body {
   align-items: center;
   font-family: "Inter";
   font-size: 20px;
-  background-color: teal;
+  background-color: #872400;
   color: #fff;
   border: none;
   padding: 5px;
@@ -87,7 +83,7 @@ body {
 }
 
 .staters-container, .beverages-container, .main-dishes-container {
-  background-color: rgb(0, 175, 175);
+  background-color: #A72C00;
   border-radius: 10px;
   width: calc(100% - 60px);
   margin: 20px auto 20px auto;
