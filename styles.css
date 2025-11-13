@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Lexend:wght@100..900&display=swap");
+body {
+  background-color: #872400;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+.main-heading {
+  font-family: "Graduate";
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+.main-heading-lower {
+  font-family: "Kaushan Script";
+  color: #fff;
+  font-weight: 100;
+  margin-top: -35px;
+  text-align: center;
+}
+
+.filter-container {
+  background-color: #A72C00;
+  width: calc(100% - 60px);
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 10px 30px 10px;
+}
+.filter-container h2 {
+  font-family: "Inter";
+  color: #fff;
+}
+.filter-container .check-box-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.filter-container .check-box-flex .checkbox-label {
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.filter-container button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 20px;
+  background-color: #872400;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  transition: 0.3s;
+  outline: 1px solid rgba(255, 255, 255, 0.4666666667);
+}
+.filter-container button:hover {
+  background-color: #c03300;
+}
+.filter-container img {
+  margin-left: 5px;
+  width: 20px;
+}
+
+.veg-tag, .non-veg-tag {
+  font-size: 8px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #777;
+  margin-left: 2px;
+}
+
+.non-veg-tag {
+  background-color: #FF0000;
+}
+
+.veg-tag {
+  background-color: #48AE29;
+}
+
+.staters-container, .beverages-container, .main-dishes-container {
+  background-color: #A72C00;
+  border-radius: 10px;
+  width: calc(100% - 60px);
+  margin: 20px auto 20px auto;
+  padding: 20px 10px 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.staters-container h2, .beverages-container h2, .main-dishes-container h2 {
+  color: #fff;
+  font-family: "Kaushan Script";
+  font-weight: 300;
+  text-align: center;
+}
+.staters-container table td, .beverages-container table td, .main-dishes-container table td {
+  color: #fff;
+  font-family: "Inter";
+  padding: 3px 30px 3px 30px;
+  font-size: 20px;
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-media-links h2 {
+  font-family: "Inter";
+  color: #fff;
+  font-weight: 500;
+}
+.social-media-links .links-flex {
+  display: flex;
+  flex-direction: row;
+}
+.social-media-links .links-flex a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+}
+.social-media-links .links-flex a img {
+  margin-right: 5px;
+  width: 30px;
+  transition: 0.5s;
+}
+.social-media-links .links-flex a img:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  font-family: "Inter";
+  text-align: center;
+  color: #da3a00;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.food-image-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.food-image-container img {
+  border-radius: 8px;
+  margin: 0px 10px 0px 10px;
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .food-image-container {
+    flex-direction: column;
+  }
+  .food-image-container img {
+    width: 300px;
+    height: 300px;
+  }
+  .food-image-container img:not(:first-child) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

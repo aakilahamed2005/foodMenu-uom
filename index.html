@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodCycle-Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts.js"></script>
+</head>
+<body>
+    <div>
+        <h1 class="main-heading">FoodCycle</h1>
+        <h4 class="main-heading-lower">Menu</h4>
+    </div>
+
+    <div class="filter-container">
+        <h2>Filter by</h2>
+
+        <form class="check-box-flex">
+            
+                <div>
+                    <input class="filter-checkbox" type="checkbox" name="filter_selection" value="veg">
+                    <label class="checkbox-label">Veg</label>
+                </div>
+                <div>
+                    <input class="filter-checkbox" type="checkbox" name="filter_selection" value="non_veg">
+                    <label class="checkbox-label">Non Veg</label>
+                </div>
+                <div>
+                    <input class="filter-checkbox" type="checkbox" name="filter_selection" value="lunch_special">
+                    <label class="checkbox-label">Lunch Special</label>
+                </div>
+                <div>
+                    <input class="filter-checkbox" type="checkbox" name="filter_selection" value="dinner_special">
+                    <label class="checkbox-label">Dinner Special</label>
+                </div>
+
+                <button type="button" id="filter-btn">Filter<img src="./filter_icon.png"></button>
+            </form>
+    </div>
+
+    <div class="main-dishes-container">
+        <h2>Main Dishes</h2>
+        <table>
+            <tr class="non_veg_item">
+                <td>Chicken Submarine<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.1450.00</td>
+            </tr>
+            <tr class="non_veg_item">
+                <td>Beef Submarine<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.1650.00</td>
+            </tr>
+            <tr class="non_veg_item">
+                <td>Chicken Biriyani<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.1550.00</td>
+            </tr>
+            <tr class="veg_item">
+                <td>Paneer Biriyani<span class="veg-tag">Veg</span></td>
+                <td>Rs.1250.00</td>
+            </tr>
+            <tr class="non_veg_item">
+                <td>Mutton Pulao<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.1700.00</td>
+            </tr>
+            <tr class="veg_item">
+                <td>Paneer Kottu<span class="veg-tag">Veg</span></td>
+                <td>Rs.1100.00</td>
+            </tr>
+            <tr class="veg_item"> 
+                <td>Vegetable Fried Rice<span class="veg-tag">Veg</span></td>
+                <td>Rs.1000.00</td>
+            </tr>
+        </table>
+
+        <div class="food-image-container">
+            <img src="food_images/main_dish_pic1.jpg">
+            <img src="food_images/main_dish_pic2.jpeg">
+            <img src="food_images/main_dish_pic3.jpg">
+        </div>
+    </div>
+
+    <div class="beverages-container">
+        <h2>Beverages</h2>
+        <table>
+            <tr class="veg_item">
+                <td>Masala Chai</td>
+                <td>Rs.220.00</td>
+            </tr>
+            <tr class="veg_item">
+                <td>Milk Tea</td>
+                <td>Rs.150.00</td>
+            </tr>
+            <tr class="veg_item">
+                <td>Plain Tea</td>
+                <td>Rs.100.00</td>
+            </tr>
+            <tr class="veg_item">
+                <td>Mango Milkshake</td>
+                <td>Rs.540.00</td>
+            </tr>
+        </table>
+
+        <div class="food-image-container">
+            <img src="food_images/beverage_pic1.jpg">
+            <img src="food_images/beverage_pic2.jpg">
+            <img src="food_images/beverage_pic3.jpg">
+        </div>
+    </div>
+
+
+    <div class="staters-container">
+        <h2>Starters</h2>
+        <table>
+            <tr class="veg_item">
+                <td>Potato Wedges<span class="veg-tag">Veg</span></td>
+                <td>Rs.650.00</td>
+            </tr>
+            <tr class="non_veg_item">
+                <td>Chicken Kebab (4pcs)<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.900.00</td>
+            </tr>
+            <tr class="non_veg_item">
+                <td>Prawn 65 (8pcs)<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.850.00</td>
+            </tr>
+            <tr class="non_veg_item">
+                <td>Chicken Lolipop(4pcs)<span class="non-veg-tag">Non Veg</span></td>
+                <td>Rs.950.00</td>
+            </tr>
+            <tr class="veg_item">
+                <td>Garlic Bread with Cheese(6pcs)<span class="veg-tag">Veg</span></td>
+                <td>Rs.550.00</td>
+            </tr>
+            
+        </table>
+
+        <div class="food-image-container">
+            <img src="food_images/starter_pic1.jpg">
+            <img src="food_images/starter_pic2.jpg">
+            <img src="food_images/starter_pic3.jpg">
+        </div>
+    </div>
+
+    <div class="social-media-links">
+        <h2>Follow Us On</h2>
+        <div class="links-flex">
+            <a href="#instagram/foodcycle"><img src="instagram_icon.png">Instagram/Food_Cycle</a>
+            <a href="#facebook/foodcycle"><img src="facebook_icon.png">Facebook/Food_Cycle</a>
+        </div>
+
+    </div>
+
+    <footer>
+        Designed & Developed by Aakil Ahamed
+    </footer>
+</body>
+</html>
