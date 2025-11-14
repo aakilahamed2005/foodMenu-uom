@@ -31,20 +31,22 @@ body {
 .filter-container h2 {
   font-family: "Inter";
   color: #fff;
+  margin-left: 10px;
 }
-.filter-container .check-box-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.filter-container .check-box-flex .checkbox-label {
-  color: #fff;
+.filter-container .form_selection {
+  margin-left: 10px;
+  background-color: #ddd;
   font-family: "Inter";
-  font-weight: 400;
   font-size: 20px;
-  margin-right: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 350px;
 }
 .filter-container button {
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
